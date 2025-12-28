@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 
 app.use("/",(req,res) => {
-    res.send("Hello Worlld");
+    res.send("Pakyouuu");
 });
 
 app.listen(process.env.PORT || 5500, 
